@@ -1,0 +1,170 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero img{
+  width: 100%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  height: 90%;
+}
+.contenido{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 657px;
+  /* background-image: url(../images/pattern-background-mobile.svg); */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  /* background-color: hsl(215, 100%, 94%); */
+}
+
+
+.tarjeta{
+  width: 300px;
+  height: 600px;
+  border-radius: 5px;
+  background-color: white;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 6px 31px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 31px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 31px -5px rgba(0,0,0,0.75);
+}
+
+@media (min-width: 768px){
+  .tarjeta{
+    width: 430px;
+  }
+}
+
+.reproductor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orden-resumen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.orden-resumen h1{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.orden-resumen p{
+  font-weight: 700;
+  padding: 0 3rem;
+  font-size: 2rem;
+  margin-top: -.5rem;
+  margin-bottom: 3rem;
+  /* color: hsl(223, 47%, 23%); */
+}
+
+.plan{
+  background-color: hsl(215, 100%, 94%);
+  border-radius: 1rem;
+  width: 280px;
+  padding: 1rem 0;
+}
+
+.plan h2, .plan p{
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px){
+  .plan{
+    width: 400px;
+  }
+
+  .plan h2, .plan p{
+    font-size: 1.6rem;
+  }
+}
+
+.opcion-plan a{
+  color: hsl(223, 47%, 23%);
+}
+
+.precio-icono{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.precio-icono img{
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 768px){
+  .descripcion-plan{
+    margin-left: -10rem;
+  }
+}
+
+.descripcion-plan h2{
+  margin: 0;
+}
+
+.descripcion-plan p{
+  margin: 0;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan .opcion-plan{
+  margin-right: 2rem;
+}
+
+.pago button{
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 1rem;
+  border: none;
+  width: 280px;
+  padding: 1.5rem;
+  margin-top: 2.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+@media (min-width: 768px){
+  .pago button{
+    width: 400px;
+  }
+}
+
+.cancelar{
+  margin-top: 2.5rem;
+}
+
+.cancelar a{
+  color: hsl(223, 47%, 23%);
+}
+.pago button:hover{
+  cursor: pointer;
+}
+.attribution{ 
+  font-size: 11px; 
+  text-align: center; 
+  margin-top: -2rem;
+}
+.attribution a{ 
+  color: hsl(228, 45%, 44%); 
+}  
+
